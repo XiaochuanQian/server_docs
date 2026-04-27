@@ -1,0 +1,374 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#111111" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#eeeeee" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  
+
+  
+  <meta http-equiv="content-language" content="en">
+  
+  
+
+  
+  <title>Frp Service Usage | Data Structure and Algorithms - Documentation for Debian Server Operation</title>
+  
+
+  
+
+  
+  
+
+<link rel="stylesheet" href="../css/bootstrap-icons.min.css">
+<link rel="stylesheet" href="../css/theme.css">
+
+
+<link rel="stylesheet" href="../css/colors/auto.css">
+<link rel="stylesheet" href="../css/highlight/default.css" media="(prefers-color-scheme: light)">
+<link rel="stylesheet" href="../css/highlight/monokai.css" media="(prefers-color-scheme: dark)">
+
+
+
+
+
+<script async>var base_url = '..';</script>
+<script src="../js/jquery-3.6.1.slim.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script async src="../js/highlight.min.js"></script>
+  
+  
+  
+</head>
+
+<body>
+
+
+
+<header>
+  <nav
+    class="navbar navbar-expand-sm navbar-toggleable-sm  border-bottom box-shadow mb-3 ">
+    <div class="container">
+      <a class="navbar-brand text-body" href="..">
+        
+        
+        Data Structure and Algorithms - Documentation for Debian Server Operation
+        
+      </a>
+      <div class="print-hide">
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+          <div class="d-none d-md-flex input-group mb-3">
+            
+            <input class="form-control" type="search" id="searchbox" accesskey="/"
+              placeholder="Search in here" aria-label="Search"
+              aria-describedby="search-btn" />
+            <button class="btn btn-outline-secondary" type="button" id="search-btn" onclick="search(false);">
+              <i class="bi bi-search"></i>
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar border-bottom box-shadow mb-3 d-md-none print-hide">
+    <div class="container">
+      <div class="navbar-collapse d-flex">
+        <p>
+        <div class="d-flex input-group mb-3">
+          
+          <button class="btn btn-outline-secondary" onclick="toggle_nav(this);" type="button" data-bs-toggle="collapse"
+            data-bs-target="#nav" title="Show Navigation"><i class="bi bi-book"></i></button>
+          
+          
+          <input class="form-control" type="search" id="searchbox_mobile" accesskey="/"
+            placeholder="Search in here" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="button" onclick="search(true);"><i
+              class="bi bi-search"></i></button>
+          
+          
+          <button class="btn btn-outline-secondary" onclick="toggle_toc(this);" type="button" data-bs-toggle="collapse"
+            data-bs-target="#toc"><i class="bi bi-list-ul"></i></button>
+          
+        </div>
+        </p>
+      </div>
+    </div>
+  </nav>
+  </header>
+  
+  
+  
+  
+  <div class="container page-shell">
+    <div class="pb-3">
+      <div class="row">
+        
+        
+        
+
+<div class="col-12 col-md-2 print-hide nav-column">
+    <div class="collapse d-md-block text-nowrap nav-panel" id="nav">
+        <ul class="list-group list-group-flush">
+            
+            
+            <li class="list-group-item"><a
+                    class="text-decoration-none  text-muted"
+                    href="..">Welcome!</a></li>
+            
+            
+            
+            <li class="list-group-item"><a
+                    class="text-decoration-none  text-body"
+                    href="./">Frp Service Usage</a></li>
+            
+            
+        </ul>
+    </div>
+</div>
+        
+        
+        
+
+
+
+
+<div class="col-12 col-md-2 order-md-3 print-hide toc-column">
+  <div class="collapse d-md-block text-nowrap toc-panel" id="toc">
+    <span>In this article</span>
+    <hr />
+    <ul class="list-group list-group-flush">
+      
+      <li class="list-group-item"><a class="text-decoration-none text-muted" href="#frp-service-usage">Frp Service Usage</a>
+        
+        <ul class="list-group list-group-flush">
+          
+      <li class="list-group-item"><a class="text-decoration-none text-muted" href="#1-location">1. Location</a>
+        
+      </li>
+      
+      <li class="list-group-item"><a class="text-decoration-none text-muted" href="#2-usage">2. Usage</a>
+        
+      </li>
+      
+        </ul>
+        
+      </li>
+      
+      <li class="list-group-item"><a class="text-decoration-none text-muted" href="#3-configuration">3. Configuration</a>
+        
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<main role="main" class="col-12 col-md-8 print-main">
+  
+  
+  <h1 >Frp Service Usage</h1>
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Data Structure and Algorithms - Documentation for Debian Server Operation</li>
+      
+      
+      
+      
+      <li class="breadcrumb-item active" aria-current="page">Frp Service Usage</li>
+      
+      
+      
+    </ol>
+  </nav>
+  
+  
+  <div class="container ml-0">
+    <div class="row">
+      
+      <div class="col-2 px-0" style="text-wrap: nowrap;">
+        
+        <a class="btn text-primary print-hide" href=".."
+          title="Welcome!"><i class="bi bi-chevron-left"></i></a>
+        
+        
+        <a class="btn text-muted print-hide"><i class="bi bi-chevron-right"></i></a>
+        
+      </div>
+      <div class="col px-0" style="text-align: right;">
+        
+        
+        <small><span class='git-page-authors git-authors'><a href='mailto:xiaochuanqian@outlook.com'>Xiaochuan_Qian</a></span></small>
+        <span>|</span>
+        
+        
+        
+        
+        <span>2026-04-27</span>
+        
+        
+        <button class="btn print-visible d-none" onclick="print_normal();"
+          title="Open NewTab"><i class="bi bi-arrow-up-right-square"></i></button>
+      </div>
+      <div class="col-1 col-sm-2 px-0 print-hide" style="text-align: right;text-wrap: nowrap;">
+        
+        
+        <a class="btn disabled print-hide d-none d-sm-inline"><i class="bi bi-pencil"></i></a>
+        
+        
+        
+        <button class="btn print-block d-none d-lg-inline" title="Print this article"
+          onclick="window.print();"><i class="bi bi-printer"></i></button>
+        
+        <span class="dropdown print-hide">
+          <button class="btn btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false"><i class="bi bi-list"></i></button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <h6 class="dropdown-header">Share via</h6>
+            </li>
+            <li><button class="btn dropdown-item"
+                onclick="share_to_twitter('Frp Service Usage | Data Structure and Algorithms - Documentation for Debian Server Operation','');"><i
+                  class="bi bi-twitter-x"></i>&nbsp;X.com</button></li>
+            <li><button class="btn dropdown-item" onclick="share_to_facebook();"><i
+                  class="bi bi-facebook"></i>&nbsp;Facebook</button></li>
+            <li><button class="btn dropdown-item" onclick="share_to_line();"><i
+                  class="bi bi-line"></i>&nbsp;LINE</button></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><button class="btn dropdown-item" onclick="window.print();"><i class="bi bi-printer"></i>&nbsp;Print</button></li>
+            <li><button class="btn dropdown-item" id="page-url-copy-btn"><i class="bi bi-clipboard"></i>&nbsp;Copy Url to clipboard</button></li>
+            <li>
+              
+              
+              <a class="btn dropdown-item disabled"><i class="bi bi-pencil"></i>&nbsp;Edit this article</a>
+              
+              
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            
+            <li><button class="btn dropdown-item" onclick="print_view();"><i
+                  class="bi bi-file-earmark-text"></i>&nbsp;View in EmbedMode</button></li>
+          </ul>
+        </span>
+      </div>
+    </div>
+  </div>
+  
+  <hr />
+  
+  <div >
+    
+    <html><head></head><body><h1 id="frp-service-usage">Frp Service Usage</h1>
+<h3 id="1-location">1. Location</h3>
+<p>The frp service is located under the <code>/opt/frp/</code> directory. The directory contains both the server bin and the client bin. The server bin is marked with <code>s</code> and the client bin is marked with <code>c</code>. In the case, the pi is set as a client so only <code>frps</code> files are used. </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a> frp/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── frpc # client bin
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── frpc.toml # client config file
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├── frps # server bin
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>├── frps.toml # server config file
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├── LICENSE
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>└── README.md
+</code></pre></div>
+<h3 id="2-usage">2. Usage</h3>
+<p>To use frp as a system service, use the following</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># 启动frp</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>start<span class="w"> </span>frpc
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1"># 停止frp</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>stop<span class="w"> </span>frpc
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># 重启frp</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>frpc
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c1"># 查看frp状态</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span>status<span class="w"> </span>frpc
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="c1"># 设置 frps 开机自启动</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>frpc
+</code></pre></div>
+<h1 id="3-configuration">3. Configuration</h1>
+<p>For adding additional proxies, please visit the <a href="https://gofrp.org/zh-cn/docs/" rel="noopener noreferrer" target="_blank">frp official documentation.</a>
+Every additional proxy can be accessed through <code>http://phclubs.net:port</code> where <code>port</code> is the port number specified in the frpc.toml file.</p></body></html>
+    
+  </div>
+</main>
+
+      </div>
+    </div>
+    <script src="../js/theme.js"></script>
+    
+    
+    
+    <script async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script async src="../search/main.js"></script>
+    
+    
+  </div>
+
+  
+  
+  
+  
+  <footer class="border-top footer text-muted"
+    style="padding-top:15px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  
+  
+  <div class="modal fade" id="searchModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="searchModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg print-hide">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group mb-3">
+                    <input id="mkdocs-search-query" type="text" class="form-control"
+                        aria-label="Search" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div id="mkdocs-search-results">
+                    search-area-desc
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+  
+</body>
+
+</html>
