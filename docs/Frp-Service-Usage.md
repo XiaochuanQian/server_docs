@@ -16,8 +16,6 @@ The frp service is located under the `/opt/frp/` directory. The directory contai
 
 ### 2. Usage
 
-For adding additional proxies, please visit the [frp official documentation.](https://gofrp.org/zh-cn/docs/)
-
 To use frp as a system service, use the following
 
 ``````bash
@@ -33,3 +31,6 @@ sudo systemctl status frpc
 sudo systemctl enable frpc
 ``````
 
+# 3. Configuration
+For adding additional proxies, please visit the [frp official documentation.](https://gofrp.org/zh-cn/docs/)
+Every additional proxy can be accessed through `http://phclubs.net:port` where `port` is the port number specified in the frpc.toml file.
