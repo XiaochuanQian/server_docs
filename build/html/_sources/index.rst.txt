@@ -16,6 +16,5 @@ This is the documentation for the usage of projects and services in the Raspberr
    :caption: Contents:
 
    introduction.md
-   Services/
-      Frp-Service-Usage.md
+   Frp-Service-Usage.md
 
