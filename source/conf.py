@@ -18,6 +18,8 @@ extensions = [
     'myst_parser'
 ]
 
+root_doc = 'introduction'
+
 templates_path = ['_templates']
 exclude_patterns = []
 

@@ -6,9 +6,9 @@
 Documentations for Raspberry Pi Server Operation
 ============================================================================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Welcome!
+-------------
+This is the documentation for the usage of projects and services in the Raspberry Pi.
 
 
 .. toctree::
